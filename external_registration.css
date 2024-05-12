@@ -1,0 +1,144 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: rgb(44, 51, 78);
+}
+input{
+    border-radius: 10px;
+    width: 100%;
+    max-width: 300px;
+    padding: 5px;
+    border: 1px solid whitesmoke;
+    margin: 5px 0 5px 10px;
+    color: whitesmoke;
+}
+select{
+    width: 100%;
+    max-width: 300px;
+    color: whitesmoke;
+}
+input[type="date"]{
+    color: whitesmoke;
+    color-scheme: dark;
+}
+#personalInfoTitle, #contactInfoTitle, #addressTitle{
+    margin: 10px 0 0 0;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;
+}
+hr{
+    margin: 5px 0 10px 0;
+}
+form{
+
+    margin: 50px;
+}
+h1{
+    margin: 50px;
+    text-align: center;
+    color: whitesmoke;
+}
+p{
+    margin: 5px 0 5px 10px;
+    padding: 5px;
+    color: whitesmoke;
+}
+::placeholder{
+    opacity: 0.5;
+    color: whitesmoke;
+}
+#fullnameArea{
+    display: flexbox;
+    margin: 10px;
+    width: fit-content;
+}
+#lName,#fName,#mName, #maritalStatus, #dob{
+    display: flexbox;
+    position: relative;
+    margin: 5px 0 5px 10px;
+    padding: 5px;
+    width: 500px;
+    border: 1px solid whitesmoke;
+}
+#maritalStatusArea{
+    flex-direction: row;
+    width: fit-content;
+    display: inline-block;
+    margin: 5px 0 5px 10px;
+    vertical-align: top;
+    
+}
+#dobArea{
+    flex-direction: row;
+    width: fit-content;
+    display: inline-block;
+    margin: 5px 0 5px 10px;
+    vertical-align: top;
+}
+#email{
+    flex-direction: row;
+    width: fit-content;
+    display: inline-block;
+    margin: 5px 0 5px 10px;
+    vertical-align: top;
+}
+#mobileNumber{
+    flex-direction: row;
+    width: fit-content;
+    display: inline-block;
+    margin: 5px 0 5px 10px;
+    vertical-align: top;
+}
+#fullAddress{
+    display: inline-block;
+    margin: 5px 0 5px 10px;
+    padding: 5px;
+    width: 100%;
+    max-width: 2000px;
+    border: 1px solid whitesmoke;
+}
+#city, #state, #postalCode, #country{
+    display: inline-block;
+    margin: 5px 0 5px 10px;
+    padding: 5px;
+    width: 100%;
+    max-width: 440px;
+    border: 1px solid whitesmoke;
+}
+input[type="reset"]{
+    opacity: 0.8;
+    display: block;
+    width: 100%;
+    max-width: 2000px; /* Set a maximum width */
+    height: 30px;
+    margin: 10px auto;
+    padding: 5px;
+    font-weight: bold;
+    background-color: whitesmoke;
+    color: rgb(44, 51, 78);
+}
+input[type="reset"]:hover{
+    background-color: rgb(24, 32, 58);
+    color: whitesmoke;
+    cursor: pointer;
+}
+input[type="submit"]{
+    display: block;
+    width: 100%;
+    max-width: 2000px; /* Set a maximum width */
+    height: 50px;
+    margin: 10px auto;
+    padding: 5px;
+    font-weight: bold;
+    background-color: whitesmoke;
+    color: rgb(44, 51, 78);
+}
+input[type="submit"]:hover{
+    background-color: rgb(24, 32, 58);
+    color: whitesmoke;
+    cursor: pointer;
+}

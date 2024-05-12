@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- external css -->
+    <link rel="stylesheet" href="external_registration.css">
+    <!-- title -->
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>New Employee Registration Form</h1>
+    <form action="">
+        <div id="content">
+            <div id="personalInfo">
+                <p id="personalInfoTitle">Personal Information</p>
+                <hr>
+                <div id="fullnameArea">
+                    <p>Full Name</p>
+                    <input type="text" id="lName" placeholder="Last Name">
+                    <input type="text" id="fName" placeholder="First Name">
+                    <input type="text" id="mName" placeholder="Middle Name">
+                </div>
+                <div id="maritalStatusArea">
+                    <p>Marital Status</p>
+                    <select name="marital" id="maritalStatus">
+                        <option value="single">Single</option>
+                        <option value="married">Married</option>
+                        <option value="widowed">Widowed</option>
+                        <option value="separated">Separated</option>
+                        <option value="divorced">Divorced</option>
+                        <option value="others">Others</option>
+                    </select>
+                </div>
+                <div id="dobArea">
+                    <p>Date of Birth</p>
+                    <input type="date" id="dob">
+                </div>
+            </div>
+            <div id="contactInfo">
+                <p id="contactInfoTitle">Contact Information</p>
+                <hr>
+                <div id="email">
+                    <p>Email</p>
+                    <input type="email" placeholder="email@example.com">
+                </div>
+                <div id="mobileNumber">
+                    <p>Mobile Number</p>
+                    <input type="tel" placeholder="0912 345 6789">
+                </div>
+            </div>
+            <div id="address">
+                <p id="addressTitle">Address</p>
+                <hr>
+                <input type="text" id="fullAddress" placeholder="Full Address">
+                <input type="text" id="city" placeholder="City">
+                <input type="text" id="state" placeholder="State">
+                <input type="number" id="postalCode" placeholder="Postal Code">
+                <input type="text" id="country" placeholder="Country">
+            </div>
+        </div>
+        <br><br>
+        <input type="reset" value="Reset all inputs">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
